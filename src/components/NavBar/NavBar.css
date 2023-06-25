@@ -30,9 +30,9 @@
   }
   .navegador .inicio {
     display: grid;
-    grid-template-columns: 2fr 4fr 4fr repeat(5, 2fr) 4fr 1fr 1fr;
+    grid-template-columns: 2fr 4fr 4fr repeat(5, 2fr) 4fr 2fr;
     grid-template-rows: 1fr;
-    grid-template-areas: "hamburg logo . tienda alquimia cursos servicios contacto . numcarrit carreta";
+    grid-template-areas: "hamburg logo . tienda alquimia cursos servicios contacto . cartwidget";
   }
   @media screen and (max-width: 820px) {
     .navegador .inicio {
@@ -104,13 +104,16 @@
     }
   }
 
+  .navegador .inicio .cartwidget {
+    grid-area: cartwidget;
+    display: flex;
+    flex-direction: row;
+  }
   .navegador .inicio .numcarrit {
-    grid-area: numcarrit;
     color: #99212B;
   }
 
   .navegador .inicio .carreta {
-    grid-area: carreta;
   }
   
   .navegador .inicio .drabar {

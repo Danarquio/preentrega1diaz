@@ -1,6 +1,7 @@
 import React from 'react';
 
-import './Navbar.css';
+import './NavBar.css';
+
 import hamburgIc from './icons/hamburger.svg'
 import dragonIc from './icons/Dragon.svg';
 import tiendaic from './icons/tienda.svg';
@@ -9,9 +10,10 @@ import contactanosIc from './icons/contactanos.svg';
 import cursosic from './icons/cursos.svg';
 import dracarnisic from './icons/Dracarnis.svg';
 import serviciosic from './icons/servicios.svg';
-import carretaic from './icons/carreta.svg';
 
-export const Navbar = () => {
+import { CartWidget } from './CartWidget/CartWidget';
+
+export const NavBar = () => {
     return (
         <nav className="navegador">
             
@@ -49,8 +51,7 @@ export const Navbar = () => {
 
                 <li className="drabar">                 <img src={dragonIc} ></img> </li>
 
-                <li className="numcarrit">              <h4>2</h4> </li>
-                <li className="carreta">                <img src={carretaic} ></img> </li>
+                <CartWidget/>
             </ul>
         </nav>
     )
