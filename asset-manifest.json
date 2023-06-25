@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/preentrega1diaz/static/css/main.b92dc77c.css",
-    "main.js": "/preentrega1diaz/static/js/main.303a8904.js",
+    "main.css": "/preentrega1diaz/static/css/main.d25945c2.css",
+    "main.js": "/preentrega1diaz/static/js/main.7c9cc498.js",
     "static/media/Dragon.svg": "/preentrega1diaz/static/media/Dragon.37de7b89871fd616e31df35713ab44c3.svg",
     "static/media/cursos.svg": "/preentrega1diaz/static/media/cursos.62260b1bb4dfc390cf3e05cc21041dec.svg",
     "static/media/Dracarnis.svg": "/preentrega1diaz/static/media/Dracarnis.bd520d9d779ea66bdc833801ab706296.svg",
@@ -12,11 +12,11 @@
     "static/media/servicios.svg": "/preentrega1diaz/static/media/servicios.335cc5dc5c43f3ccfdb536c82baba77c.svg",
     "static/media/hamburger.svg": "/preentrega1diaz/static/media/hamburger.7498d2f7f3b216d67aebbcd1dcbdaae2.svg",
     "index.html": "/preentrega1diaz/index.html",
-    "main.b92dc77c.css.map": "/preentrega1diaz/static/css/main.b92dc77c.css.map",
-    "main.303a8904.js.map": "/preentrega1diaz/static/js/main.303a8904.js.map"
+    "main.d25945c2.css.map": "/preentrega1diaz/static/css/main.d25945c2.css.map",
+    "main.7c9cc498.js.map": "/preentrega1diaz/static/js/main.7c9cc498.js.map"
   },
   "entrypoints": [
-    "static/css/main.b92dc77c.css",
-    "static/js/main.303a8904.js"
+    "static/css/main.d25945c2.css",
+    "static/js/main.7c9cc498.js"
   ]
 }
