@@ -9,7 +9,7 @@ import contactanosIc from './icons/contactanos.svg';
 import cursosic from './icons/cursos.svg';
 import dracarnisic from './icons/Dracarnis.svg';
 import serviciosic from './icons/servicios.svg';
-
+import carretaic from './icons/carreta.svg';
 
 export const Navbar = () => {
     return (
@@ -48,6 +48,9 @@ export const Navbar = () => {
                 <li className="contactanos , entrada">  <img src={contactanosIc} ></img> <a href="./Pages/contactanos.html"> </a></li>
 
                 <li className="drabar">                 <img src={dragonIc} ></img> </li>
+
+                <li className="numcarrit">              <h4>2</h4> </li>
+                <li className="carreta">                <img src={carretaic} ></img> </li>
             </ul>
         </nav>
     )
