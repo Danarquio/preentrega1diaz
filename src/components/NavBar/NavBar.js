@@ -12,6 +12,7 @@ import dracarnisic from './icons/Dracarnis.svg';
 import serviciosic from './icons/servicios.svg';
 
 import { CartWidget } from './CartWidget/CartWidget';
+import { Link } from 'react-router-dom';
 
 export const NavBar = () => {
     return (
@@ -20,36 +21,36 @@ export const NavBar = () => {
             <ul className="inicio">
 
                 <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                    <a className="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="true">
                     <img src={hamburgIc} alt="menu hamburguesa"></img>
                     </a>
 
                     <ul className='dropdown-menu'>
-                        <li><a className="dropdown-item" href="#">Inicio</a></li>
+                        <li><Link className="dropdown-item" to="/">Inicio</Link></li>
                         <hr className="dropdown-divider"></hr>
 
-                        <li><a className="dropdown-item" href="#">Tienda</a></li>
-                        <li><a className="dropdown-item" href="#">Alquimia</a></li>
-                        <li><a className="dropdown-item" href="#">Cursos</a></li>
-                        <li><a className="dropdown-item" href="#">Servicios</a></li>
+                        <li><Link className="dropdown-item" to="/productos">Tienda</Link></li>
+                        <li><Link className="dropdown-item" href="/">Alquimia</Link></li>
+                        <li><Link className="dropdown-item" href="/">Cursos</Link></li>
+                        <li><Link className="dropdown-item" href="/">Servicios</Link></li>
                         <hr className="dropdown-divider"></hr>
 
-                        <li><a className="dropdown-item" href="#">Contactanos</a></li>
+                        <li><Link className="dropdown-item" href="/">Contactanos</Link></li>
                     </ul>
 
 
                 </li>
 
 
-                <li className="logo1"><a href="./index.html"><img src={dracarnisic} ></img> </a></li>
+                <li className="logo1"><Link to="/"><img src={dracarnisic} alt='logo'></img> </Link></li>
 
-                <li className="tienda , entrada">       <img src={tiendaic} ></img>  <a href="./Pages/tienda.html"> </a></li>
-                <li className="alquimia , entrada">     <img src={alquimiaic} ></img>  <a href="./Pages/alquimia.html"> </a></li>
-                <li className="cursos , entrada">       <img src={cursosic} ></img>  <a href="./Pages/cursos.html"> </a></li>
-                <li className="servicios , entrada">    <img src={serviciosic} ></img> <a href="./Pages/servicios.html"> </a></li>
-                <li className="contactanos , entrada">  <img src={contactanosIc} ></img> <a href="./Pages/contactanos.html"> </a></li>
+                <li className="tienda , entrada">       <img src={tiendaic} alt='tienda'></img>  <Link href="./Pages/tienda.html"> </Link></li>
+                <li className="alquimia , entrada">     <img src={alquimiaic} alt='alquimia'></img>  <Link href="./Pages/alquimia.html"> </Link></li>
+                <li className="cursos , entrada">       <img src={cursosic} alt='cursos'></img>  <Link href="./Pages/cursos.html"> </Link></li>
+                <li className="servicios , entrada">    <img src={serviciosic} alt='servicios'></img> <Link href="./Pages/servicios.html"> </Link></li>
+                <li className="contactanos , entrada">  <img src={contactanosIc} alt='contactanos'></img> <Link href="./Pages/contactanos.html"> </Link></li>
 
-                <li className="drabar">                 <img src={dragonIc} ></img> </li>
+                <li className="drabar">                 <img src={dragonIc} alt='logo' ></img> </li>
 
                 <CartWidget/>
             </ul>

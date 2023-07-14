@@ -1,0 +1,111 @@
+a { color: white;
+    text-decoration: none;
+  }
+
+.barra {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: #670000;
+    align-items: center;
+  }
+  @media screen and (max-width: 820px) {
+    .barra {
+      justify-content: flex-start;
+    }
+  }
+  .barra .desplegable {
+    list-style-type: none;
+    padding: 20px;
+    font-family: "OswaldR";
+    color: black;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: right;
+    align-content: right;
+  }
+  .barra .categorias {
+    list-style-type: none;
+    background-color: #670000;
+    padding: 20px;
+    font-family: "OswaldR";
+    color: white;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: right;
+    align-content: right;
+  }
+  @media screen and (max-width: 820px) {
+    .barra .categorias {
+      display: none;
+    }
+  }
+  .barra .categorias li {
+    margin-right: 50px;
+  }
+  @media screen and (max-width: 1450px) {
+    .barra .categorias li {
+      font-size: 24px;
+      margin-right: 0px;
+      display: flex;
+      margin-right: 0px;
+      padding: 5px;
+    }
+  }
+  @media screen and (max-width: 1056px) {
+    .barra .categorias li {
+      font-size: 22px;
+      margin-right: 0px;
+      display: flex;
+      margin-right: 0px;
+      padding: 4px;
+    }
+  }
+  
+  .barraalquimia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #670000;
+    align-items: center;
+    padding: 10px;
+  }
+  @media screen and (max-width: 650px) {
+    .barraalquimia {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  
+  .categorias {
+    list-style-type: none;
+    background-color: #670000;
+    padding: 20px;
+    font-family: "OswaldR";
+    color: white;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: right;
+    align-content: right;
+  }
+  .categorias li {
+    margin-right: 50px;
+  }
+  @media screen and (max-width: 1056px) {
+    .categorias li {
+      font-size: 25px;
+      margin-right: 0px;
+      display: flex;
+      margin-right: 0px;
+      padding: 5px;
+    }
+  }
