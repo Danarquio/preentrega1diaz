@@ -70,7 +70,7 @@ const ItemDetail = ({item}) => {
         </Link>
         <hr />
         <p>
-          En rebanadas, por trozo o la pieza entera de <strong>Bondiola Curada</strong>.
+          En rebanadas, por trozo o la pieza entera de <strong>{item.nombre}</strong>.
           <br />
           <br />
           El jamón curado es una excelente entrada, puede ser servido como tapa en una tabla
