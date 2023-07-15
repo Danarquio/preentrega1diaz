@@ -9,7 +9,7 @@ export const CartWidget = () => {
 
         <div className='cartwidget'>
             <li >              <h4 className="numcarrit">2</h4> </li>
-            <li >                <img src={carretaic} className="carreta" ></img> </li>
+            <li >                <img src={carretaic} className="carreta" alt="carro de compra" ></img> </li>
 
         </div>)
 }
