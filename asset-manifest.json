@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/preentrega1diaz/static/css/main.ea43f68e.css",
-    "main.js": "/preentrega1diaz/static/js/main.cf8540f5.js",
+    "main.js": "/preentrega1diaz/static/js/main.6f5f0ad3.js",
     "static/media/charcuteria1.svg": "/preentrega1diaz/static/media/charcuteria1.8998311b42b7b71b7c70.svg",
     "static/media/AdventPro-Bold.woff2": "/preentrega1diaz/static/media/AdventPro-Bold.1df882cf7178bc8e5e3f.woff2",
     "static/media/Oswald-Bold.woff2": "/preentrega1diaz/static/media/Oswald-Bold.3dbc477a95fd76fae4cc.woff2",
@@ -22,10 +22,10 @@
     "static/media/hamburger.svg": "/preentrega1diaz/static/media/hamburger.7498d2f7f3b216d67aebbcd1dcbdaae2.svg",
     "index.html": "/preentrega1diaz/index.html",
     "main.ea43f68e.css.map": "/preentrega1diaz/static/css/main.ea43f68e.css.map",
-    "main.cf8540f5.js.map": "/preentrega1diaz/static/js/main.cf8540f5.js.map"
+    "main.6f5f0ad3.js.map": "/preentrega1diaz/static/js/main.6f5f0ad3.js.map"
   },
   "entrypoints": [
     "static/css/main.ea43f68e.css",
-    "static/js/main.cf8540f5.js"
+    "static/js/main.6f5f0ad3.js"
   ]
 }
