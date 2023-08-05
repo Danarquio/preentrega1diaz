@@ -1,8 +1,14 @@
 import ItemCount from '../ItemCount/ItemCount';
 import { Link } from 'react-router-dom';
+import {Mayusculas} from "../Mayusculas/Mayusculas"
+import React , {useContext} from 'react';
+import { CartContext } from '../../context/CartContext';
+
 
 
 const ItemDetail = ({item}) => {
+
+const { carrito, setCarrito } = useContext(CartContext);
   return (
     <section className='ventanilla'>
     <div className="cuadroventa">
@@ -55,18 +61,13 @@ const ItemDetail = ({item}) => {
         </div>
       </div>
 
-      <button className="botoncompra">AGREGAR AL CARRO</button>
+      <div className='cuentame'><ItemCount productoSeleccionado={item} carrito={carrito} setCarrito={setCarrito} /></div>
 
-      <div className="precioproducto">
-        <h3>{item.precio}</h3>
-        <div className="cantidad">
-          <ItemCount nombre={item.nombre} minimo={item.minimo} stock={item.stock} />
-        </div>
-      </div>
+
       <div className="descproducto">
-        <h2>{item.nombre}</h2>
-        <Link to={`/productos/${item.categoria}`} >
-          <h4>{item.categoria}</h4>
+        <h2>{Mayusculas(item.nombre)}</h2>
+        <Link to={`/tienda/${(item.categoria)}`} >
+          <h4>{Mayusculas(item.categoria)}</h4>
         </Link>
         <hr />
         <p>
@@ -81,7 +82,7 @@ const ItemDetail = ({item}) => {
         <p className="indicacion">
           REFRIGERAR UNA VEZ ABIERTO EL EMPAQUE.
           <br />
-          VENTA MINIMA {item.minimo}gr.
+          VENTA MINIMA {item.minimo}gr x ${item.precio}.
         </p>
 
         <hr />

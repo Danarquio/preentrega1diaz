@@ -7,38 +7,38 @@ const Categoriabar = () => {
 return (
 
 <div>
-    <div class="barra">
+    <div className="barra">
 
-        <li class="nav-item dropdown desplegable">
-            <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <li className="nav-item dropdown desplegable">
+            <a className="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 CATEGORIAS
             </a>
-            <ul class="dropdown-menu">
-              <li><Link class="dropdown-item" to="/productos">Tienda</Link></li>
-              <hr class="dropdown-divider" />
-              <li><Link class="dropdown-item" to="/productos/Curados">Curados</Link></li>
-              <li><Link class="dropdown-item" to="/productos/Embutidos">Embutidos</Link></li>
-              <li><Link class="dropdown-item" to="/productos/Cocidos">Cocidos</Link></li>
-              <li><Link class="dropdown-item" to="/productos/Ahumados">Ahumados</Link></li>
-              <li><Link class="dropdown-item" to="/productos/Deshidratados">Deshidratados</Link></li>
+            <ul className="dropdown-menu">
+              <li><Link className="dropdown-item" to="/tienda">Tienda</Link></li>
+              <hr className="dropdown-divider" />
+              <li><Link className="dropdown-item" to="/tienda/Curados">Curados</Link></li>
+              <li><Link className="dropdown-item" to="/tienda/Embutidos">Embutidos</Link></li>
+              <li><Link className="dropdown-item" to="/tienda/Cocidos">Cocidos</Link></li>
+              <li><Link className="dropdown-item" to="/tienda/Ahumados">Ahumados</Link></li>
+              <li><Link className="dropdown-item" to="/tienda/Deshidratados">Deshidratados</Link></li>
             </ul>
           </li>
 
-        <ul class="categorias">
-            <li><Link to="/productos/Curados">CURADOS</Link></li>
+        <ul className="categorias">
+            <li><Link to="/tienda/Curados">CURADOS</Link></li>
             <li>•</li>
-            <li><Link to="/productos/Embutidos">EMBUTIDOS</Link></li>
+            <li><Link to="/tienda/Embutidos">EMBUTIDOS</Link></li>
             <li>•</li>
-            <li><Link to="/productos/Cocidos">COCIDOS</Link></li>
+            <li><Link to="/tienda/Cocidos">COCIDOS</Link></li>
             <li>•</li>
-            <li><Link to="/productos/Ahumados">AHUMADOS</Link></li>
+            <li><Link to="/tienda/Ahumados">AHUMADOS</Link></li>
             <li>•</li>
-            <li><Link to="/productos/Deshidratados">DESHIDRATADOS</Link></li>
+            <li><Link to="/tienda/Deshidratados">DESHIDRATADOS</Link></li>
             <li>•</li>
-            <li><Link to="/productos/Merch">MERCH</Link></li>
+            <li><Link to="/tienda/Merch">MERCH</Link></li>
         </ul>
     </div>
-    <hr class="hrbarra" />
+    <hr className="hrbarra" />
     </div>
 )
 

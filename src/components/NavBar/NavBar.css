@@ -113,7 +113,8 @@
     color: #99212B;
   }
 
-  .navegador .inicio .carreta {
+  .navegador .inicio .carreta:hover {
+transform: rotate(20deg);
   }
   
   .navegador .inicio .drabar {

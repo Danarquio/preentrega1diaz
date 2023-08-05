@@ -19,10 +19,9 @@
   border-radius: 25px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 5fr 1fr;
-  grid-template-areas: "descripcion foto" "precio boton";
-  justify-content: center;
-  align-items: center;
+  grid-template-areas: "descripcion foto" "precio foto";
+  justify-content: flex-start;
+  align-items: flex-start;
   padding: 20px;
 }
 @media screen and (max-width: 1056px) {
@@ -37,8 +36,8 @@
   grid-area: foto;
 }
 .ventanilla .cuadroventa .fotoproducto .carrus {
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 @media screen and (max-width: 650px) {
   .ventanilla .cuadroventa .fotoproducto .carrus {
@@ -47,64 +46,15 @@
   }
 }
 .ventanilla .cuadroventa .fotoproducto img {
-  border-radius: 20px;
+  border-radius: 30px;
 }
-.ventanilla .cuadroventa .botoncompra {
-  grid-area: boton;
-  height: 65px;
-  width: 80%;
-  background-color: #910000;
-  color: #fff;
-  font-size: 34px;
-  border-radius: 4px;
-  align-items: center;
-  justify-items: center;
-  justify-content: center;
-  margin-left: 60px;
-}
-@media screen and (max-width: 1056px) {
-  .ventanilla .cuadroventa .botoncompra {
-    margin-top: 20px;
-    margin-left: 0px;
-    font-size: 22px;
-  }
-}
-.ventanilla .cuadroventa .precioproducto {
-  grid-area: precio;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-@media screen and (max-width: 1056px) {
-  .ventanilla .cuadroventa .precioproducto {
-    padding: 10px;
-  }
-}
-.ventanilla .cuadroventa .precioproducto h3 {
-  font-size: 65px;
-  color: white;
-  font-family: "AdventPro";
-}
-@media screen and (max-width: 1056px) {
-  .ventanilla .cuadroventa .precioproducto h3 {
-    margin-right: 30px;
-  }
-}
-@media screen and (max-width: 820px) {
-  .ventanilla .cuadroventa .precioproducto h3 {
-    font-size: 55px;
-  }
-}
-.ventanilla .cuadroventa .precioproducto .cantidad__input {
-  width: 60px;
-  height: 60px;
-  text-align: center;
-  font-size: 28px;
-  margin: 10 10px;
-}
+
+
 .ventanilla .cuadroventa .descproducto {
   grid-area: descripcion;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
   padding: 20px;
   width: 100%;
 }
@@ -154,4 +104,9 @@
   .ventanilla .cuadroventa .descproducto .indicacion {
     font-size: 12px;
   }
+}
+
+.cuentame {
+grid-area: precio;
+padding: 30px;
 }

@@ -29,13 +29,13 @@ export const NavBar = () => {
                         <li><Link className="dropdown-item" to="/">Inicio</Link></li>
                         <hr className="dropdown-divider"></hr>
 
-                        <li><Link className="dropdown-item" to="/productos">Tienda</Link></li>
+                        <li><Link className="dropdown-item" to="/tienda">Tienda</Link></li>
                         <li><Link className="dropdown-item" href="/">Alquimia</Link></li>
                         <li><Link className="dropdown-item" href="/">Cursos</Link></li>
                         <li><Link className="dropdown-item" href="/">Servicios</Link></li>
                         <hr className="dropdown-divider"></hr>
 
-                        <li><Link className="dropdown-item" href="/">Contactanos</Link></li>
+                        <li><Link className="dropdown-item" to="/contactanos">Contactanos</Link></li>
                     </ul>
 
 
@@ -44,11 +44,11 @@ export const NavBar = () => {
 
                 <li className="logo1"><Link to="/"><img src={dracarnisic} alt='logo'></img> </Link></li>
 
-                <li className="tienda , entrada">   <Link to="/productos">    <img src={tiendaic} alt='tienda'></img>   </Link></li>
+                <li className="tienda , entrada">   <Link to="/tienda">    <img src={tiendaic} alt='tienda'></img>   </Link></li>
                 <li className="alquimia , entrada">  <Link to="/">   <img src={alquimiaic} alt='alquimia'></img>   </Link></li>
                 <li className="cursos , entrada">   <Link to="/">    <img src={cursosic} alt='cursos'></img>   </Link></li>
                 <li className="servicios , entrada">   <Link to="/">  <img src={serviciosic} alt='servicios'></img> </Link></li>
-                <li className="contactanos , entrada"> <Link to="/"> <img src={contactanosIc} alt='contactanos'></img>  </Link></li>
+                <li className="contactanos , entrada"> <Link to="/contactanos"> <img src={contactanosIc} alt='contactanos'></img>  </Link></li>
 
                 <li className="drabar">                 <img src={dragonIc} alt='logo' ></img> </li>
 

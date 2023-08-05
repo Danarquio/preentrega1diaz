@@ -1,0 +1,43 @@
+.titulos1 {
+    list-style-type: none;
+    background-color: #670000;
+    padding: 15px;
+    margin: 0px;
+    font-family: "OswaldR";
+    color: white;
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+  }
+  .titulos1_li {
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-family: "OswaldR";
+    color: white;
+    font-size: 35px;
+    padding: 10px;
+    gap: 60px;
+  }
+  @media screen and (max-width: 1450px) {
+    .titulos1_li {
+      font-size: 25px;
+      margin-right: 0px;
+      display: flex;
+      gap: 30px;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    .titulos1_li {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 20px;
+      justify-content: center;
+    }
+  }
+  

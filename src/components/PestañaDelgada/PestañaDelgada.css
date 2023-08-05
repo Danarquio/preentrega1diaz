@@ -1,0 +1,127 @@
+.pestañas {
+    background-color: #670000;
+    display: flex;
+    width: 100%;
+  }
+  .pestañas .cardtienda {
+    padding: 20px;
+    border-top-right-radius: 80px;
+    background-color: #99212B;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+  }
+  .pestañas .cardtienda:hover {
+    font-family: "OswaldB";
+    font-size: 28px;
+  }
+  @media screen and (max-width: 820px) {
+    .pestañas .cardtienda {
+      padding: 5px;
+      width: 50%;
+      border-top-right-radius: 40px;
+    }
+  }
+  .pestañas .cardtienda ._image2 {
+    width: 50px;
+  }
+  .pestañas .card2 {
+    padding: 20px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+  }
+  .pestañas .card2:hover {
+    transform: scale(110%);
+    font-family: "OswaldB";
+  }
+  .pestañas .card2 .cardtienda_image3 {
+    display: none;
+  }
+  @media screen and (max-width: 820px) {
+    .pestañas .card2 .cardtienda_image3 {
+      display: flex;
+      width: 60%;
+    }
+  }
+  @media screen and (max-width: 820px) {
+    .pestañas .card2 h3 {
+      display: none;
+    }
+  }
+  .pestañas .cardtiendadoble {
+    padding: 20px;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    background-color: #99212B;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+  }
+  .pestañas .cardtiendadoble:hover {
+    font-family: "OswaldB";
+    font-size: 28px;
+  }
+  @media screen and (max-width: 820px) {
+    .pestañas .cardtiendadoble {
+      padding: 15px;
+      width: 50%;
+      border-top-right-radius: 40px;
+      border-top-left-radius: 40px;
+    }
+  }
+  .pestañas .cardtiendafin {
+    padding: 20px;
+    border-top-left-radius: 60px;
+    background-color: #99212B;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+  }
+  .pestañas .cardtiendafin:hover {
+    font-family: "OswaldB";
+    font-size: 28px;
+  }
+  @media screen and (max-width: 820px) {
+    .pestañas .cardtiendafin {
+      padding: 15px;
+      width: 50%;
+      border-top-right-radius: 40px;
+      border-top-left-radius: 40px;
+    }
+  }
+  .pestañas .card_text {
+    gap: 30px;
+    display: flex;
+    color: white;
+    font-size: 25px;
+    align-self: center;
+    justify-content: center;
+  }
+  .pestañas .cardtienda_image2 {
+    width: 50px;
+  }
+  .pestañas .cardtienda_image3 {
+    display: none;
+  }
+  @media screen and (max-width: 820px) {
+    .pestañas .cardtienda_image3 {
+      display: flex;
+      width: 60%;
+    }
+  }
+  

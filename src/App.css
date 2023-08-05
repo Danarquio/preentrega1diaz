@@ -12,6 +12,12 @@
   font-family: "AdventPro";
   src: url("./Fuente/AdventPro-Bold.woff") format("woff"), url("./Fuente/AdventPro-Bold.woff2") format("woff");
 }
+
+@font-face {
+  font-family: "AdventProExtralight";
+  src: url("./Fuente/AdventPro-ExtraLight.woff") format("woff"), url("./Fuente/AdventPro-ExtraLight.woff") format("woff");
+}
+
 @font-face {
   font-family: "OswaldR";
   src: url("./Fuente/Oswald-Regular.woff") format("woff"), url("./Fuente/Oswald-Regular.woff2") format("woff2");

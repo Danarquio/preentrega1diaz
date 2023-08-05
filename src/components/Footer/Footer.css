@@ -1,0 +1,45 @@
+
+.footer {
+    background-color: #000000;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+  }
+  @media screen and (max-width: 650px) {
+    .footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  .footer .socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 20px;
+    margin-left: 20px;
+  }
+  @media screen and (max-width: 650px) {
+    .footer .socialmedia a {
+      padding: 10px;
+    }
+  }
+  .footer .socialmedia .__icon {
+    display: flex;
+    width: 40px;
+  }
+  .footer .footext {
+    color: white;
+    font-family: "OswaldM";
+    padding: 30px;
+  }
+  @media screen and (max-width: 650px) {
+    .footer .footext {
+      text-align: center;
+    }
+  }
+  

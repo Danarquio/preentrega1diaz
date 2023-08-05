@@ -1,0 +1,116 @@
+
+main {
+    background-color: #670000;
+    border: #670000;
+    width: 100%;
+  }
+  main .secciones {
+    padding: 0px;
+    display: flex;
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+  }
+  @media screen and (max-width: 650px) {
+    main .secciones {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  main .secciones .card1 {
+    padding: 20px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+  }
+  main .secciones .card1:hover {
+    transform: translate(0, -10px);
+    padding: 20px;
+    background-color: #99212B;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "OswaldB";
+  }
+  @media screen and (max-width: 650px) {
+    main .secciones .card1 {
+      width: 100%;
+    }
+  }
+  main .secciones .card1 .tiendabre {
+    width: 40%;
+    transition: 1s;
+    transition: -webkit-clip-path 2s;
+    transition: clip-path 2s;
+    transition: clip-path 2s, -webkit-clip-path 2s;
+  }
+  main .secciones .card1 .tiendabre:hover .cortina1 {
+    display: none;
+  }
+  main .secciones .card1 .tiendabre:hover .cortina2 {
+    display: none;
+  }
+  main .secciones .card1 .calderomove {
+    width: 50%;
+  }
+  main .secciones .card1 .calderomove .palo2 {
+    display: none;
+  }
+  main .secciones .card1 .calderomove .palo3 {
+    display: none;
+  }
+  main .secciones .card1 .calderomove:hover .palo {
+    display: none;
+  }
+  main .secciones .card1 .calderomove:hover .palo3 {
+    display: flex;
+  }
+  main .secciones .card1 .libraco {
+    width: 50%;
+  }
+  main .secciones .card1 .libraco .labierto {
+    display: none;
+  }
+  main .secciones .card1 .libraco:hover .labierto {
+    display: flex;
+  }
+  main .secciones .card1 .libraco:hover .lcerrado {
+    display: none;
+  }
+  main .secciones .card1 .llamas {
+    width: 50%;
+  }
+  main .secciones .card1 .llamas .llamota {
+    display: none;
+  }
+  main .secciones .card1 .llamas:hover .llamita {
+    display: none;
+  }
+  main .secciones .card1 .llamas:hover .llamota {
+    display: flex;
+  }
+  main .secciones .card1 .card_image {
+    width: 150px;
+    align-self: center;
+    justify-content: center;
+  }
+  main .secciones .card1 .card_text {
+    gap: 30px;
+    display: flex;
+    color: white;
+    font-size: 25px;
+    align-self: center;
+    justify-content: center;
+  }
+
+  .st0 {
+    fill: white;
+  }
+  

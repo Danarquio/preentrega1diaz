@@ -1,109 +1,30 @@
+.tituloCateg {
+  background-color: #99212B;
+  
+}
 
-.botoncompra {
-    display: flex;
-    flex-direction: row;
-    background-color: #910000;
-    color: #fff;
-    font-size: 30px;
-    border-radius: 4px;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    margin-left: 60px;
-  }
-  @media screen and (max-width: 1056px) {
-    .ventanilla .cuadroventa .botoncompra {
-      margin-top: 20px;
-      margin-left: 0px;
-      font-size: 22px;
-    }
-  }
-  
-  
-  .elementodecompra {
+.nombreproducto {
+  background-color: #99212B;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-items: start;
-  margin: 30px;
-  
-  }
-  
-  .imagencompra {
-  max-width: 160px;
-  }
-  
-  .nombreproducto {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    color: #ffffff;
-    font-family: "AdventPro";
-    font-size: 55px;
-    margin: 40px;
-  }
-  
-  .precioproducto {
-    background-color: #ffffff4e;
-    color: #000000;
-    font-family: "AdventPro";
-    font-size: 50px;
-    margin: 40px;
-    padding: 15px;
-  }
-  
-
-  
-h4 {
-  color: #ffffff;
-}
-
-.totalproducto {
-  background-color: #000000;
+  flex-wrap: nowrap;
   color: #ffffff;
   font-family: "AdventPro";
-  font-size: 60px;
-  margin: 35px;
-  padding: 20px;
-  border-radius: 20px;
-  width: 280px;
-  text-align: right;
+  font-size: 55px;
+  padding-top: 20px;
+  padding-left: 40px;
 }
 
-.eliminar {
-  border: 0;
-  background-color: transparent;
-  color: #910000;
-  cursor: pointer;
-  width: 1rem;
+.shop {
+  background-color: #99212B;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 10px;
+
 }
-
-
-.totales {
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  border-radius: 15px;
-  width: fit-content;
-  padding: 30px;
-  justify-items: center;
-  align-self: flex-end;
-  margin-right: 60px;
-  margin-bottom: 30px;
+@media screen and (max-width: 1056px) {
+  .shop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
-
-.total  {
-  color: #000000;
-  font-family: "AdventPro";
-  font-size: 50px;
-  margin-right: 30px
-}
-
-.totalprecio {
-  color: #000000;
-  font-family: "AdventPro";
-  font-size: 50px;
-  margin-right: 30px
-}
-
-
