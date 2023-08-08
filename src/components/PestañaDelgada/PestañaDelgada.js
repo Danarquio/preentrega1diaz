@@ -19,7 +19,8 @@ export const PestañaDelgada = () => {
   return (
     
     <section className="pestañas">
-    {/* Sección para /tienda */}
+
+
     {selectedTab === '/tienda' && (
       <>
         <div className="cardtienda">
@@ -46,7 +47,8 @@ export const PestañaDelgada = () => {
       </>
     )}
 
-    {/* Sección para /alquimia */}
+
+
     {selectedTab === '/alquimia' && (
       <>
         <Link className="card2" to="/tienda" onClick={() => handleTabChange('/tienda')}>
@@ -73,7 +75,8 @@ export const PestañaDelgada = () => {
       </>
     )}
 
-    {/* Sección para /cursos */}
+
+
     {selectedTab === '/cursos' && (
       <>
         <Link className="card2" to="/tienda" onClick={() => handleTabChange('/tienda')}>
@@ -100,7 +103,8 @@ export const PestañaDelgada = () => {
       </>
     )}
 
-    {/* Sección para /servicios */}
+
+
     {selectedTab === '/servicios' && (
       <>
         <Link className="card2" to="/tienda" onClick={() => handleTabChange('/tienda')}>
@@ -127,7 +131,8 @@ export const PestañaDelgada = () => {
       </>
     )}
 
-        {/* Sección para /contactanos */}
+
+
         {selectedTab === '/contactanos' && (
       <>
         <Link className="card2" to="/tienda" onClick={() => handleTabChange('/tienda')}>

@@ -28,7 +28,8 @@ const ItemCount = ({ productoSeleccionado}) => {
 
 
   const calcularPrecioFinal = () => {
-    return cantidadGramos * ( productoSeleccionado.precio / productoSeleccionado.minimo);
+    const calculofinal = cantidadGramos * ( productoSeleccionado.precio / productoSeleccionado.minimo)
+    return calculofinal.toFixed(0);
   };
 
   const handleAgregar = () => {

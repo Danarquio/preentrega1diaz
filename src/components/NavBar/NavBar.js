@@ -50,7 +50,7 @@ export const NavBar = () => {
                 <li className="servicios , entrada">   <Link to="/">  <img src={serviciosic} alt='servicios'></img> </Link></li>
                 <li className="contactanos , entrada"> <Link to="/contactanos"> <img src={contactanosIc} alt='contactanos'></img>  </Link></li>
 
-                <li className="drabar">                 <img src={dragonIc} alt='logo' ></img> </li>
+                <li className="drabar">  <img src={dragonIc} alt='logo' ></img> </li>
 
                 <CartWidget/>
             </ul>
