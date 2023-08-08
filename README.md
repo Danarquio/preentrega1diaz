@@ -22,7 +22,7 @@ Bienvenido/a a la página web de la marca de charcutería Dracarnis. Esta plataf
 - Context API para el manejo del carrito de compras.
 - Estilos con CSS y CSS-in-JS.
 - Bootstrap para componentes de interfaz.
-- Firebase para la gestión de servicios en la nube.
+- Firebase para la  gestión de servicios en la nube.
 
 ## Cómo Ejecutar el Proyecto
 
