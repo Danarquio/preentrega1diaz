@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import "./CartWidget.css"
 
 
 
@@ -13,13 +14,12 @@ export const CartWidget = () => {
 
     return (
 
-        <Link to="/carrito" className='cartwidget'>
+        <Link to="/cart" className='cartwidget'>
             
             
-                <li >              <h2 className="numcarrit">{mismoProducto()}</h2> </li>
-                <li >              <h5 className="numcarrit">{cantidadEncarrito()}gr</h5> </li>
-            
-            <li >                <img src={carretaic} className="carreta" alt="carro de compra" ></img> </li>
+                <li className="numprod"> {mismoProducto()} Productos </li>
+                <li className="numcarrit"> {cantidadEncarrito()}gr </li>
+                <img src={carretaic} className="carreta" alt="carro de compra" ></img>
 
         </Link>)
 }

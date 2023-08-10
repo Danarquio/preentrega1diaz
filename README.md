@@ -15,6 +15,10 @@ Bienvenido/a a la página web de la marca de charcutería Dracarnis. Esta plataf
 ![Captura de pantalla 1](/src/Imagenes/screenshot1.png)
 ![Captura de pantalla 2](/src/Imagenes/screenshot2.png)
 
+## Video de Presentación
+
+![Video de presentación](/src/Imagenes/screen-capture.webm)
+
 ## Tecnologías Utilizadas
 
 - React.js para la construcción de la interfaz de usuario.

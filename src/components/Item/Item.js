@@ -26,6 +26,9 @@ return (
         <ItemCount productoSeleccionado={producto} carrito={carrito} setCarrito={setCarrito} />
     </div>
     <Link to={`/item/${producto.id}`} className="detalle">ver detalle</Link>
+        
+      <Link to="/cart" className="irCarritoItem">ir al carrito</Link>
+    
     </div>
 
 

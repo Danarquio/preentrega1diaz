@@ -1,0 +1,70 @@
+
+.blog {
+    background-color: #99212B;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+  }
+  @media screen and (max-width: 1056px) {
+    .blog {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    .blog {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .blog .cuadroblog {
+    padding: 25px;
+    display: flex;
+    background-color: #D9D9D9;
+    width: 50%;
+    border-radius: 25px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: left;
+    align-content: left;
+    margin: 20px;
+  }
+  @media screen and (max-width: 1056px) {
+    .blog .cuadroblog {
+      padding: 10px;
+      margin: 5px;
+      width: 95%;
+      gap: 0px;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    .blog .cuadroblog {
+      padding: 10px;
+      margin: 5px;
+      width: 95%;
+      gap: 0px;
+    }
+  }
+  .blog .cuadroblog .blog__image {
+    width: 100%;
+    border-radius: 25px;
+  }
+  .blog .cuadroblog .blog__titulo {
+    color: #670000;
+    display: flex;
+    font-size: 50px;
+    font-family: "AdventPro";
+  }
+  .blog .cuadroblog .blog__subtitulo {
+    color: black;
+    display: flex;
+    font-size: 20px;
+    font-family: "OswaldM";
+  }
+  .blog .cuadroblog .blog__resumen {
+    color: black;
+    display: flex;
+    font-size: 20px;
+    font-family: "OswaldR";
+  }
+  

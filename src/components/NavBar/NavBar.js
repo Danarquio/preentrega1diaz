@@ -30,9 +30,9 @@ export const NavBar = () => {
                         <hr className="dropdown-divider"></hr>
 
                         <li><Link className="dropdown-item" to="/tienda">Tienda</Link></li>
-                        <li><Link className="dropdown-item" href="/">Alquimia</Link></li>
-                        <li><Link className="dropdown-item" href="/">Cursos</Link></li>
-                        <li><Link className="dropdown-item" href="/">Servicios</Link></li>
+                        <li><Link className="dropdown-item" to="/alquimia">Alquimia</Link></li>
+                        <li><Link className="dropdown-item" to="/cursos">Cursos</Link></li>
+                        <li><Link className="dropdown-item" to="/servicios">Servicios</Link></li>
                         <hr className="dropdown-divider"></hr>
 
                         <li><Link className="dropdown-item" to="/contactanos">Contactanos</Link></li>
@@ -45,9 +45,9 @@ export const NavBar = () => {
                 <li className="logo1"><Link to="/"><img src={dracarnisic} alt='logo'></img> </Link></li>
 
                 <li className="tienda , entrada">   <Link to="/tienda">    <img src={tiendaic} alt='tienda'></img>   </Link></li>
-                <li className="alquimia , entrada">  <Link to="/">   <img src={alquimiaic} alt='alquimia'></img>   </Link></li>
-                <li className="cursos , entrada">   <Link to="/">    <img src={cursosic} alt='cursos'></img>   </Link></li>
-                <li className="servicios , entrada">   <Link to="/">  <img src={serviciosic} alt='servicios'></img> </Link></li>
+                <li className="alquimia , entrada">  <Link to="/alquimia">   <img src={alquimiaic} alt='alquimia'></img>   </Link></li>
+                <li className="cursos , entrada">   <Link to="/cursos">    <img src={cursosic} alt='cursos'></img>   </Link></li>
+                <li className="servicios , entrada">   <Link to="/servicios">  <img src={serviciosic} alt='servicios'></img> </Link></li>
                 <li className="contactanos , entrada"> <Link to="/contactanos"> <img src={contactanosIc} alt='contactanos'></img>  </Link></li>
 
                 <li className="drabar">  <img src={dragonIc} alt='logo' ></img> </li>

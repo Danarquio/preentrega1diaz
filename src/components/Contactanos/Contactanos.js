@@ -2,6 +2,8 @@ import './Contactanos.css';
 import { PestañaDelgada } from '../PestañaDelgada/PestañaDelgada';
 
 import { useForm } from 'react-hook-form';
+import { toast } from 'react-toastify';
+
 
 
 
@@ -9,8 +11,8 @@ export const Contactanos = () => {
 
     const { register, handleSubmit} = useForm();
 
-    const enviar = (data) =>{
-         console.log(data);
+    const enviar = () =>{
+      toast.success('¡Formulario enviado con éxito!')
     }
 
 
@@ -88,6 +90,7 @@ export const Contactanos = () => {
         <iframe
           className="mapgoog"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.1419698545214!2d-70.63677418495217!3d-33.44560758077538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5779c6f5a5d%3A0xcd7fa4cd54c9a3fb!2sMar%C3%ADn%20145%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1675910210230!5m2!1ses-419!2scl"
+          title="Mapa de ubicación"
           width="600"
           height="550"
           style={{ border: 0 }}

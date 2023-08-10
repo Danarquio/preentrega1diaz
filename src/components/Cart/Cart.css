@@ -1,0 +1,30 @@
+.finalizarCompra {
+    background-color: rgb(110, 110, 110);
+    background-image: url(../../Imagenes/charcuteria2.svg);
+    width: 94%;
+    border-radius: 25px;
+    display: flex;
+  flex-direction: column;
+    padding: 200px;
+    align-items: flex-start;
+  }
+  @media screen and (max-width: 1056px) {
+    .finalizarCompra {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+
+  .finalizarCompra h1 {
+    font-size: 50px;
+    color: aliceblue;
+  }
+
+
+  .finalizarCompra h3 {
+    font-size: 30px;
+    color: #910000;
+  }

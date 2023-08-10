@@ -87,7 +87,9 @@ const { carrito, setCarrito } = useContext(CartContext);
 
         <hr />
       </div>
+      <Link to="/cart" ><h3>ir al carrito</h3></Link>
     </div>
+    
     </section>
   )
 }

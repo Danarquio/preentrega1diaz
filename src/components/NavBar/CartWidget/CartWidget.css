@@ -1,0 +1,30 @@
+.cartwidget {
+    grid-area: cartwidget;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "numprod carreta" "numcarrit carreta";
+    
+  }
+
+.numprod {
+    grid-area: numprod;
+    color: #99212B;
+    font-size: 20px;
+
+}
+
+.numcarrit {
+    grid-area: numcarrit;
+    color: #99212B;
+  }
+
+  .carreta {
+    grid-area: carreta;
+    height: 45px;
+  }
+
+.carreta:hover {
+
+transform: rotate(20deg);
+  }

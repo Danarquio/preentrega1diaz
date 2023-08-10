@@ -1,0 +1,52 @@
+
+.curso {
+    background-color: #99212B;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+  }
+  @media screen and (max-width: 650px) {
+    .curso {
+      flex-direction: column;
+    }
+  }
+  .curso .cuadrocurso {
+    padding: 25px;
+    display: flex;
+    background-color: #D9D9D9;
+    width: 50%;
+    border-radius: 25px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: left;
+    align-content: left;
+    margin: 20px;
+  }
+  @media screen and (max-width: 650px) {
+    .curso .cuadrocurso {
+      width: 90%;
+    }
+  }
+  .curso .cuadrocurso .curso__image {
+    width: 100%;
+    border-radius: 25px;
+  }
+  .curso .cuadrocurso .curso__titulo {
+    color: #670000;
+    display: flex;
+    font-size: 50px;
+    font-family: "AdventPro";
+  }
+  .curso .cuadrocurso .curso__subtitulo {
+    color: black;
+    display: flex;
+    font-size: 30px;
+    font-family: "OswaldB";
+  }
+  .curso .cuadrocurso .curso__resumen {
+    color: black;
+    display: flex;
+    font-size: 20px;
+    font-family: "OswaldR";
+  }
+  

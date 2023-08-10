@@ -66,4 +66,15 @@
     border-radius: 5px;
     padding: 10px;
     margin-top: 15px;
+    transition: transform 0.2s, background-color 0.2s;
 }
+
+.botonAgregar:active {
+    transform: translateY(2px); /* Empuja el botón hacia abajo */
+    background-color: #333; /* Cambia el color de fondo cuando se presiona */
+  }
+
+
+  :root {
+    --toastify-color-progress-info: #ff9900; /* Cambia el color de la barra de progreso de información a naranja */
+  }
