@@ -17,7 +17,7 @@ Bienvenido/a a la página web de la marca de charcutería Dracarnis. Esta plataf
 
 ## Video de Presentación
 
-![Video de presentación](/src/Imagenes/screen-capture.webm)
+![Video de presentación](/src/Imagenes/screen-capture.mp4)
 
 ## Tecnologías Utilizadas
 
