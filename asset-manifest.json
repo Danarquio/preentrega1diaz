@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/preentrega1diaz/static/css/main.85b89364.css",
-    "main.js": "/preentrega1diaz/static/js/main.66e748e2.js",
+    "main.css": "/preentrega1diaz/static/css/main.c8d0f5d0.css",
+    "main.js": "/preentrega1diaz/static/js/main.b2e886e0.js",
     "static/media/Draca2.mp4": "/preentrega1diaz/static/media/Draca2.48b3c6d978cdfa0a4ecf.mp4",
+    "static/media/charcuteria.jpg": "/preentrega1diaz/static/media/charcuteria.13b159535ee29fc6b288.jpg",
     "static/media/Draca3.mp4": "/preentrega1diaz/static/media/Draca3.5c23d3f1eae00e182980.mp4",
     "static/media/Draca1.mp4": "/preentrega1diaz/static/media/Draca1.aeddc8d19436d565dda3.mp4",
+    "static/media/salmuera.jpg": "/preentrega1diaz/static/media/salmuera.7ca01f998e207e67d4a3.jpg",
+    "static/media/maestro parrillero.jpg": "/preentrega1diaz/static/media/maestro parrillero.8bfdc5b2a3aa6376a93b.jpg",
     "static/media/charcuteria1.svg": "/preentrega1diaz/static/media/charcuteria1.8998311b42b7b71b7c70.svg",
+    "static/media/charcuteria2.svg": "/preentrega1diaz/static/media/charcuteria2.93296405a52cb6c4d38a.svg",
+    "static/media/Alquimia1.webp": "/preentrega1diaz/static/media/Alquimia1.a232ac85158ad7feab0a.webp",
     "static/media/AdventPro-Bold.woff2": "/preentrega1diaz/static/media/AdventPro-Bold.1df882cf7178bc8e5e3f.woff2",
     "static/media/Oswald-Bold.woff2": "/preentrega1diaz/static/media/Oswald-Bold.3dbc477a95fd76fae4cc.woff2",
     "static/media/Oswald-Medium.woff2": "/preentrega1diaz/static/media/Oswald-Medium.e3caac2cb4ea480c6cd8.woff2",
     "static/media/Oswald-Regular.woff2": "/preentrega1diaz/static/media/Oswald-Regular.14b346861b0c78fa36fe.woff2",
+    "static/media/parrillero.webp": "/preentrega1diaz/static/media/parrillero.363e8b8c8b5b1b2214fc.webp",
+    "static/media/maestro jamonero.jpg": "/preentrega1diaz/static/media/maestro jamonero.d8179911d0528885fa85.jpg",
     "static/media/Dragon.svg": "/preentrega1diaz/static/media/Dragon.37de7b89871fd616e31df35713ab44c3.svg",
     "static/media/Oswald-Medium.woff": "/preentrega1diaz/static/media/Oswald-Medium.02b5d6730842314de965.woff",
     "static/media/Oswald-Bold.woff": "/preentrega1diaz/static/media/Oswald-Bold.15f2be00e92732f1cadc.woff",
@@ -30,11 +37,11 @@
     "static/media/hamburger.svg": "/preentrega1diaz/static/media/hamburger.7498d2f7f3b216d67aebbcd1dcbdaae2.svg",
     "index.html": "/preentrega1diaz/index.html",
     "static/media/facebook.svg": "/preentrega1diaz/static/media/facebook.9105c250c69865cf5f3157ebf9b5536a.svg",
-    "main.85b89364.css.map": "/preentrega1diaz/static/css/main.85b89364.css.map",
-    "main.66e748e2.js.map": "/preentrega1diaz/static/js/main.66e748e2.js.map"
+    "main.c8d0f5d0.css.map": "/preentrega1diaz/static/css/main.c8d0f5d0.css.map",
+    "main.b2e886e0.js.map": "/preentrega1diaz/static/js/main.b2e886e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.85b89364.css",
-    "static/js/main.66e748e2.js"
+    "static/css/main.c8d0f5d0.css",
+    "static/js/main.b2e886e0.js"
   ]
 }
