@@ -10,14 +10,21 @@ Bienvenido/a a la página web de la marca de charcutería Dracarnis. Esta plataf
 - Disfruta de nuestros exclusivos [Servicios](#) de maestro parrillero y maestro jamonero, entre otros.
 - Ponte en [Contacto](#) con nosotros para consultas, comentarios y solicitudes de información.
 
+
+## Enlace al Proyecto Desplegado
+
+Puedes acceder al proyecto desplegado [aquí](https://danarquio.github.io/preentrega1diaz/).
+
+
 ## Capturas de Pantalla
 
 ![Captura de pantalla 1](/src/Imagenes/screenshot1.png)
 ![Captura de pantalla 2](/src/Imagenes/screenshot2.png)
 
+
 ## Video de Presentación
 
-![Video de presentación](/src/Imagenes/screen-capture.mp4)
+![Video de presentación](/Imagenes/screen-capture.mp4)
 
 ## Tecnologías Utilizadas
 
